@@ -95,7 +95,8 @@ public final class DrawNumberApp implements DrawNumberViewObserver {
      * @throws FileNotFoundException 
      */
     public static void main(final String... args) throws FileNotFoundException {
-        new DrawNumberApp("config.yml", new DrawNumberViewImpl(), new PrintStreamView(System.out), new DrawNumberViewImpl(), new PrintStreamView(System.out));
+        new DrawNumberApp("config.yml", new DrawNumberViewImpl(), new PrintStreamView(System.out), 
+        new DrawNumberViewImpl(), new PrintStreamView("output.log"));
     }
 
 }
