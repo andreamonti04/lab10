@@ -108,7 +108,6 @@ public final class LambdaUtilities {
          *
          * Keep in mind that a map can be iterated through its forEach method
          */
-        
         return maps;
     }
 
